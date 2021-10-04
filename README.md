@@ -1,4 +1,4 @@
-# lob-.NET-examples
+# lob-.net-examples
 
 Welcome to Lob’s Example library for .NET.
 
