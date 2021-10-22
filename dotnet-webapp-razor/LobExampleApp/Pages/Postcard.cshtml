@@ -1,0 +1,34 @@
+@page
+@model PostcardModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<p>Because we have saved the address in your Lob Address Book, you can access it any time by going <a href="https://dashboard.lob.com/#/addresses/@Model.activeAddress">here</a></p>
+<p>You can change the merge variables in the form below. <a href="https://www.lob.com/guides#html_and_merge">Merge Variables</a> are the way that Lob allows dynamic content in mail templates.</p>
+<div class="row">
+    <div class="col">
+        <form class="form-inline" method="get">
+            <div class="input-group">
+                <input type="text" class="form-control" placeholder="variable1" asp-for="variable1" />
+                <input type="text" class="form-control" placeholder="variable2" asp-for="variable2" />
+                <input type="hidden" name="address" value="@Model.activeAddress" />
+                <button type="submit" class="btn btn-primary mb-2">Submit</button>
+            </div>
+        </form>
+    </div>
+</div>
+<br /><br />
+<div class="row">
+    <table class="table">
+        <tr>
+            <td style="width:50%"><strong>Front</strong></td>
+            <td><img src="@Model.previewURLFront" style="border:1px solid black" width="50%" /></td>
+        </tr>
+         <tr>
+            <td style="width:50%"><strong>Back</strong></td>
+            <td><img src="@Model.previewURLBack" style="border:1px solid black" width="50%" /></td>
+        </tr>
+    </table>
+</div>
+
+
+

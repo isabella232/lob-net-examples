@@ -1,0 +1,46 @@
+@page
+@model NewAddressModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<p>Information entered here will be saved your account <a href="https://dashboard.lob.com/#/addresses">Address Book</a>. Address entered here are verified, sanitized and formatted in a standardized way. They can also be referenced later for other API calls.</p>
+<p>You can read more about the <a href="https://docs.lob.com/#tag/Addresses">Address Book API</a> on the Lob Docs. </p>
+<form method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="form-group">
+
+        <label for="addressResult.name">Name </label>
+        <input type="text" class="form-control" asp-for="addressResult.name" name="addressResult.name">
+        <span asp-validation-for="addressResult.name" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label for="addressResult.company">Company</label>
+        <input type="text" class="form-control" name="addressResult.company">
+    </div>
+    <div class="form-group">
+        <label for="addressResult.address_line1">Address Line 1</label>
+        <input type="text" class="form-control" name="addressResult.address_line1">
+        <span asp-validation-for="addressResult.address_line1" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label for="addressResult.city">City</label>
+        <input type="text" class="form-control" name="addressResult.address_city">
+        <span asp-validation-for="addressResult.address_city" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label for="addressResult.state">State</label>
+        <input type="text" class="form-control" name="addressResult.address_state">
+        <span asp-validation-for="addressResult.address_state" class="text-danger"></span>
+
+    </div>
+    <div class="form-group">
+        <label for="addressResult.state">Zip</label>
+        <input type="text" class="form-control" name="addressResult.address_zip">
+        <span asp-validation-for="addressResult.address_zip" class="text-danger"></span>
+
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

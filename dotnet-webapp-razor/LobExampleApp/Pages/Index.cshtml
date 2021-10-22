@@ -1,0 +1,37 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Lob Sample App";
+}
+
+@if (Model.addressResults.Count > 0) {
+<p>Enter in an address to see first hand how easy it is to send mail via Lob. This sample applicaiton will show off two different aspets of the Lob API -- Postcards and the Address Book.</p>
+<a class="btn btn-primary" href="/new">Add New Address</a>
+<br /><br />
+<table class="table table-hover">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">ID</th>
+            <th scope="col">Address</th>
+            <th scope="col">City</th>
+            <th scope="col">State</th>
+            <th scope="col">Zip</th>
+            <th scope="col">Action</th>
+        </tr>
+    </thead>
+    <tbody>
+        @for (var i = 0; i < Model.addressResults.Count; i++) {
+        <tr>
+            <th scope="row">@Model.addressResults[i].id</th>
+            <td>@Model.addressResults[i].address_line1</td>
+            <td>@Model.addressResults[i].address_city</td>
+            <td>@Model.addressResults[i].address_state</td>
+            <td>@Model.addressResults[i].address_zip</td>
+            <td><a class="btn btn-primary" asp-page="Postcard"  asp-route-address="@Model.addressResults[i].id" asp-route-variable1="Access" asp-route-variable2="22">View Postcard Preview</a></td>
+        </tr>
+        }
+    </tbody>
+</table>
+} else {
+    <p>No Addresses saved! Add one by going <a asp-page="./New">here</a></p>
+}
