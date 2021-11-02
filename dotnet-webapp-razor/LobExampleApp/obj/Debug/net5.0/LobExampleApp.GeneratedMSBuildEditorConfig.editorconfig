@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = LobExampleApp
-build_property.ProjectDir = /Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/
+build_property.ProjectDir = /Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/

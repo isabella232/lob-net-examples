@@ -13,7 +13,6 @@ namespace LobExampleApp
         private string apiKey = Environment.GetEnvironmentVariable("LOB_API_KEY");
         public async Task<LobAddressListResult> listAddresses()
         {
-            Console.WriteLine(this.apiKey);
             var url = this.baseUrl + "addresses";
             LobAddressListResult resp = await url.WithBasicAuth(this.apiKey, "").GetJsonAsync<LobAddressListResult>();
             return resp;

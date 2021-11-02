@@ -1,5 +1,5 @@
 {
-  "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/LobExampleApp.csproj",
+  "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/LobExampleApp.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "5.0",
@@ -15619,47 +15619,47 @@
   "RootNamespace": "LobExampleApp",
   "Documents": [
     {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/Shared/_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/New.cshtml",
-      "TargetPath": "Pages\\New.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/Postcard.cshtml",
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/Postcard.cshtml",
       "TargetPath": "Pages\\Postcard.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/_ViewStart.cshtml",
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/_ViewImports.cshtml",
+      "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/Error.cshtml",
+      "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/Shared/_ValidationScriptsPartial.cshtml",
+      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/_ViewStart.cshtml",
       "TargetPath": "Pages\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-net-examples/dotnet-webapp-razor/LobExampleApp/Pages/Shared/_Layout.cshtml",
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/Index.cshtml",
+      "TargetPath": "Pages\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/New.cshtml",
+      "TargetPath": "Pages\\New.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/Privacy.cshtml",
+      "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "/Users/shariq-torres/Documents/GitHub/lob-csharp-example/LobExampleApp/Pages/Shared/_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
       "FileKind": "mvc"
     }
